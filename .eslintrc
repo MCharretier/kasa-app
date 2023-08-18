@@ -1,0 +1,12 @@
+{
+    "extends": ["react-app"],
+    "rules": {
+        "no-console": "warn",
+        "no-var": "error",
+        "no-extra-semi": "error",
+        "semi-spacing": "error",
+        "quotes": ["error", "single"],
+        "indent": ["error", 4],
+        "no-mixed-spaces-and-tabs": "error"
+    }
+}
