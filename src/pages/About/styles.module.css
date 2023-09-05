@@ -1,0 +1,19 @@
+.about {
+    padding: 0px 40px;
+    margin: 0 auto;
+    max-width: 1240px;
+    min-height: calc( 100vh - 349px );
+}
+
+@media (max-width: 740px) {
+    .about {
+        padding: 0 20px;
+        min-height: calc( 100vh - 300px );
+    }
+}
+
+@media (max-width: 620px) {
+    .about {
+        min-height: calc( 100vh - 270px );
+    }
+}

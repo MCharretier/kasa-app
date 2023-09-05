@@ -1,0 +1,35 @@
+.tag {
+    border-radius: 10px;
+    background: #FF6060;
+    color: #FFF;
+    text-align: center;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-width: 115px;
+    height: 25px;
+    padding: 0 10px;
+}
+
+@media (max-width: 740px) {
+    .tag {
+        border-radius: 8px;
+        font-size: 12px;
+        min-width: 96px;
+        height: 22px;
+        padding: 0 8px;
+    }
+}
+
+@media (max-width: 620px) {
+    .tag {
+        border-radius: 5px;
+        font-size: 10px;  
+        min-width: 84px;
+        height: 18px;
+        padding: 0 5px;  
+    }
+}

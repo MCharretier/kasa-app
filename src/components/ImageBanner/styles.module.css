@@ -1,0 +1,58 @@
+.imageBanner {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 223px;
+    border-radius: 25px;
+    overflow: hidden;
+    background: rgba(0, 0, 0, 0.3);
+    margin: 23px 0 31px;
+}
+
+.imageBanner img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    mix-blend-mode: darken;
+}
+
+.imageBanner h1 {
+    position: absolute;
+    width: 100%;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    text-align: center;
+    font-size: 48px;
+    line-height: 120%;
+    font-weight: 500;
+    margin: 0;
+    padding: 0 16px;
+}
+
+@media (max-width: 1065px) {
+    .imageBanner {
+        border-radius: 15px;
+    }
+}
+
+@media (max-width: 740px) {
+    .imageBanner {
+        border-radius: 10px;
+    }
+    .imageBanner h1 {
+        text-align: left;
+        white-space: break-spaces;
+    }
+}
+
+@media (max-width: 620px) {
+    .imageBanner {
+        height: 111px;
+    }
+
+    .imageBanner h1 {
+        font-size: 24px;
+        line-height: 100%;
+    }
+}

@@ -1,0 +1,50 @@
+.thumb {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-end;
+    border-radius: 10px;
+    overflow: hidden;
+    width: 100%;
+    padding-bottom: 100%;
+    background-color: #FF6060;
+}
+
+.thumb::after {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(180deg, rgba(255, 255, 255, 0.00) 0%, rgba(0, 0, 0, 0.50) 100%);
+}
+
+.thumb img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.thumb p {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    color: #FFF;
+    font-family: 'Montserrat', sans-serif;
+    font-size: 18px;
+    font-weight: 500;
+    padding: 20px;
+    margin: 0;
+    z-index: 1;
+}
+
+@media (max-width: 620px) {
+    .thumb {
+        padding-bottom: 255px;
+    }
+}

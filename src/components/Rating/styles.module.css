@@ -1,0 +1,15 @@
+.rating {
+    height: 36px;
+}
+
+@media (max-width: 740px) {
+    .rating {
+        height: 24px;
+    }
+}
+
+@media (max-width: 620px) {
+    .rating {
+        height: 18px;
+    }
+}
